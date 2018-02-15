@@ -1,0 +1,7 @@
+Django==1.11
+django-extensions==1.5.5
+requests==2.7.0
+python-docx==0.8.5
+pytz==2015.4
+beautifulsoup4==4.3.2
+xlwt==1.1.2
