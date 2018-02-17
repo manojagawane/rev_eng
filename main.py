@@ -9,7 +9,7 @@ import django.dispatch.dispatcher
 from google.appengine.ext.webapp import util
 
 # Force Django to reload its settings.
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "rev_eng.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
 from django.conf import settings
 settings._target = None
 
