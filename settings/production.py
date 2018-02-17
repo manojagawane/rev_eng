@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'rev_eng.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 SECRET_KEY = os.environ.get('SECRET_KEY', 'SOME+RANDOM+KEY(z9+3vnm(jb0u@&w68t#5_e8s9-lbfhv-')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+#EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 
 # Password validation
