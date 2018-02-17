@@ -26,7 +26,7 @@ SECRET_KEY = 'd=11=!*hvh)*lroje^-36xda_5(5ihb2_)z#1z_)v57sx*6str'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS =  ['project-name.herokuapp.com', '.yourdomain.com']
+ALLOWED_HOSTS =  ['radiant-ridge-55105.herokuapp.com', '.yourdomain.com']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
