@@ -14,7 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE_DIR = os.path.join(BASE_DIR,'templates/')
+TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -23,9 +23,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates/')
 SECRET_KEY = 'd=11=!*hvh)*lroje^-36xda_5(5ihb2_)z#1z_)v57sx*6str'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['radiant-ridge-55105.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['radiant-ridge-55105.herokuapp.com','127.0.0.1',]
 
 
 # Application definition
@@ -119,11 +119,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-print(STATIC_ROOT)
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#print(STATIC_ROOT)
 STATICFILES_DIRS = [
-
-
+    os.path.join(BASE_DIR,'static'),
 ]
 
 
